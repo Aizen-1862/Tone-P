@@ -210,8 +210,8 @@ Android SDK 34+ \
 Run Locally\
 Bash
 ```
-git clone https://github.com/nikhilvishwakarma00/Velune.git\
-cd Velune\
+git clone https://github.com/Aizen-1862/Tone-P.git\
+cd Tone-P\
 
 ```
 Open in Android Studio → Sync → Run ▶ \
