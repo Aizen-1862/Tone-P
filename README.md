@@ -81,7 +81,7 @@ Tone:P preserves the upstream GPL-3.0 license and required notices. Changes and 
     <tr>
       <td align="center" colspan="2">
         <a href="https://github.com/Aizen-1862/Tone-P/releases/latest">
-          <img src="assets/badge_github.png" height="50" alt="Get Velune on GitHub">
+          <img src="assets/badge_github.png" height="50" alt="Get Tone:P on GitHub">
         </a>
       </td>
     </tr>
