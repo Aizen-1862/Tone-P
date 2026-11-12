@@ -1,21 +1,14 @@
 
 <div align="center">
 
- <img src="https://raw.githubusercontent.com/nikhilvishwakarma00/Velune/main/fastlane/metadata/android/en-US/images/icon.png" width="110" />
+ <img src="https://raw.githubusercontent.com/Aizen-1862/Tone-P/main/fastlane/metadata/android/en-US/images/icon.png" width="110" />
 
 </div>
 
-# 🌌 Velune
+# 🌌 Tone:P
 <div align="center">
 
-<pre>
-██╗   ██╗███████╗██╗     ██╗   ██╗███╗   ██╗███████╗
-██║   ██║██╔════╝██║     ██║   ██║████╗  ██║██╔════╝
-██║   ██║█████╗  ██║     ██║   ██║██╔██╗ ██║█████╗
-╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██║╚██╗██║██╔══╝
- ╚████╔╝ ███████╗███████╗╚██████╔╝██║ ╚████║███████╗
-  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
-</pre>
+<pre>T O N E : P</pre>
 
 </div>
 
@@ -25,10 +18,10 @@
 
 <div align="center">
 
-![Release](https://img.shields.io/github/v/release/nikhilvishwakarma00/Velune?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=3B82F6)
-![Downloads](https://img.shields.io/github/downloads/nikhilvishwakarma00/Velune/total?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=10B981)
-![Stars](https://img.shields.io/github/stars/nikhilvishwakarma00/Velune?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=F59E0B)
-![License](https://img.shields.io/github/license/nikhilvishwakarma00/Velune?style=for-the-badge&labelColor=18181B&color=EF4444)
+![Release](https://img.shields.io/github/v/release/Aizen-1862/Tone-P?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=3B82F6)
+![Downloads](https://img.shields.io/github/downloads/Aizen-1862/Tone-P/total?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=10B981)
+![Stars](https://img.shields.io/github/stars/Aizen-1862/Tone-P?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B&color=F59E0B)
+![License](https://img.shields.io/github/license/Aizen-1862/Tone-P?style=for-the-badge&labelColor=18181B&color=EF4444)
 
 <br>
 
@@ -43,18 +36,14 @@
 <br>
 <hr>
 
-⚠️ Official Velune Notice
+⚠️ Community Fork Notice
 
-This is the official Velune repository, maintained by Nikhil Vishwakarma.
+Tone:P is a community-maintained fork of Velune, originally created by Nikhil Vishwakarma. This repository is not the official Velune project and is not maintained by the original author.
 
-Official source code & releases:
+Original upstream project:
 https://github.com/nikhilvishwakarma00/Velune
 
-Please be cautious of third-party websites or downloads using the Velune name that are not linked from this repository.
-
-In particular, https://velune.cc  is not operated or maintained by me, and I am not affiliated with that website.
-
-For your safety, download Velune only from the official GitHub releases
+Tone:P preserves the upstream GPL-3.0 license and required notices. Changes and releases in this fork are maintained separately. The original Velune website and community links below belong to the upstream project, not Tone:P.
 
 <hr>
 <br>
@@ -76,13 +65,13 @@ For your safety, download Velune only from the official GitHub releases
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/nikhilvishwakarma00/Velune">
-          <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" height="50" alt="Get Velune on Obtainium">
+        <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/Aizen-1862/Tone-P">
+          <img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" height="50" alt="Get Tone:P on Obtainium">
         </a>
       </td>
       <td align="center">
         <a href="https://apt.izzysoft.de/fdroid/index/apk/com.nikhil.yt">
-          <img src="assets/IzzyOnDroidButtonBorder.svg" height="50" alt="Get Velune on IzzyOnDroid">
+          <img src="assets/IzzyOnDroidButtonBorder.svg" height="50" alt="Original Velune listing on IzzyOnDroid">
         </a>
       </td>
     </tr>
@@ -91,8 +80,8 @@ For your safety, download Velune only from the official GitHub releases
     </tr>
     <tr>
       <td align="center" colspan="2">
-        <a href="https://github.com/nikhilvishwakarma00/Velune/releases/latest">
-          <img src="assets/badge_github.png" height="50" alt="Get Velune on GitHub">
+        <a href="https://github.com/Aizen-1862/Tone-P/releases/latest">
+          <img src="assets/badge_github.png" height="50" alt="Get Tone:P on GitHub">
         </a>
       </td>
     </tr>
@@ -102,9 +91,9 @@ For your safety, download Velune only from the official GitHub releases
 </div>
 
 
-## 🚀 Why Velune?
+## 🚀 Why Tone:P?
 
-Velune is not just another music player — it's a **complete reimagination of YouTube Music**.
+Tone:P continues the Velune music-client experience as an independently maintained community fork.
 
 * ⚡ **Faster** than the official app
 * 🎵 Built for audiophiles & power users
@@ -203,7 +192,7 @@ Built using **modern Android engineering principles**:
 ## 📂 Project Structure
 
 ```bash
-velune/
+tone-p/
 ├── app/
 ├── innertube/
 ├── lrclib/
@@ -221,8 +210,8 @@ Android SDK 34+ \
 Run Locally\
 Bash
 ```
-git clone https://github.com/nikhilvishwakarma00/Velune.git\
-cd Velune\
+git clone https://github.com/Aizen-1862/Tone-P.git\
+cd Tone-P\
 
 ```
 Open in Android Studio → Sync → Run ▶ \
@@ -236,10 +225,10 @@ Open in Android Studio → Sync → Run ▶ \
 ## 💬 Community
 
 Have a feature request, found a bug,
-or just want to share your favorite music setups? Join the official Velune community!
+or just want to share your favorite music setups? Visit the original Velune community (upstream):
 
-* *Discord:* [Join the Velune Server](https://discord.gg/cJNHTdpP6H)
-* *GitHub Discussions:* [Open a Discussion](https://github.com/nikhilvishwakarma00/Velune/discussions)
+* *Discord:* [Original Velune Discord server](https://discord.gg/cJNHTdpP6H)
+* *GitHub Discussions:* [Upstream Velune Discussions](https://github.com/nikhilvishwakarma00/Velune/discussions)
 
 
 
@@ -262,16 +251,16 @@ SimpMusic
 BetterLyrics
 
 ⚖️ Legal
-Velune is an independent client and is not affiliated with YouTube or Google.\
+Tone:P is an independent community fork and is not affiliated with YouTube or Google. It is also not the official Velune project.\
 Please support artists through official platforms ❤️\
 Licensed under GPL-3.0
  
 
 💙 Built with passion by Nikhil\
-⭐ Star the repo if Velune impressed you\
+⭐ Star the Tone:P fork if you find it useful\
 🚀 Help it reach more people
 
-## 🔗 Star History
+## 🔗 Upstream Velune Star History
 
 <div align="center">
   <a href="https://star-history.com/nikhilvishwakarma00/velune&Date">

@@ -1,0 +1,57 @@
+name: Android Build
+
+on:
+  push:
+    branches:
+      - main
+      - tonep-branding
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build and unit tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Install Android SDK packages
+        shell: bash
+        run: |
+          SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | sort -V | tail -n 1)"
+          if [ -z "$SDKMANAGER" ]; then
+            echo "Android SDK manager was not found on the runner."
+            exit 1
+          fi
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build universal debug APK
+        run: bash ./gradlew --no-daemon :app:assembleUniversalDebug
+
+      - name: Run unit tests
+        run: bash ./gradlew --no-daemon :app:testUniversalDebugUnitTest
+
+      - name: Upload universal debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ToneP-universal-debug
+          path: app/build/outputs/apk/universal/debug/*.apk
+          if-no-files-found: error
+          retention-days: 14
